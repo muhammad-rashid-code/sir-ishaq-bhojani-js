@@ -112,3 +112,61 @@
 // let data1=4;
 // console.log(parseInt(data)%data1);   in this we have remainder 3
 
+
+
+
+
+// things same to alert
+// let userfavnum=prompt("what is your fac number")  mistake
+
+// 
+
+
+
+
+// let userfavnum=prompt("what is your favrite number");
+// console.log(userfavnum);
+
+
+// let userName=prompt("what is your name");
+// console.log(userName);
+
+
+
+// let userName=prompt("what is your name");
+// document.write("welcome to my website "+userName);
+
+
+// let randomNumber=Math.random();
+// console.log(randomNumber);
+
+
+
+let randomNumber=Math.random();
+let roundnumber=Math.round(randomNumber);
+console.log(roundnumber)
+
+
+// revision begins 42:22
+
+
+
+// last topics 46:38
+
+// bodmas
+
+//03 ishaq bhojani js03 ishaq bhojani js03 ishaq bhojani js03
+
+
+
+// string ko + through 
+// alert box string hota ha
+
+// comparison oprators
+
+// console.log(5=="5")
+// double equalsto value ka firqa ni dekhta
+
+// console.log(5==="5")
+// triple equalsto value ka firq bhi dekhta ha
+
