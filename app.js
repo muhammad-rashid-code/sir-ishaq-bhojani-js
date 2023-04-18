@@ -142,9 +142,9 @@
 
 
 
-let randomNumber=Math.random();
-let roundnumber=Math.round(randomNumber);
-console.log(roundnumber)
+// let randomNumber=Math.random();
+// let roundnumber=Math.round(randomNumber);
+// console.log(roundnumber)
 
 
 // revision begins 42:22
@@ -170,3 +170,58 @@ console.log(roundnumber)
 // console.log(5==="5")
 // triple equalsto value ka firq bhi dekhta ha
 
+// console.log(5!=5);
+
+// let num=5
+// let num1="6"
+// console.log(num1 != num)
+
+// let num="5";
+// let num1="7";
+// console.log(num1 !== num);
+
+// let num=5
+// let num1=4
+// console.log(num1 > num)
+
+// let num=5
+// let num1=5
+// console.log(num <= num1)
+
+// let num=10
+// let num1=9
+// console.log(num >= num1)
+
+// ----------------if--------and---------------else
+
+// let userAge = +prompt("Enter Your Age");
+// if (userAge >= 18) { console.log("You Can Apply For Cnic"); } else{console.log("You Can not Apply For Cnic")}
+
+
+//  else {console.log("You Can Apply For Cnic")}
+
+// let userage=+prompt("Enter Your Age");
+// if (userage>=18){console.log("you can apply");}
+// else {console.log("you can not apply")}
+
+// let userfavnum= +promt("Entrer a Number");
+// let computernum=Math.round(Math.random()*10);
+// if(userfavnum===computernum){console.log("you won!");}
+// else {console.log("you lose"+computernum)}
+
+
+// let userFavNum=+prompt("enter a number");
+// let computerNum=Math.round(Math.random()*10);
+
+// if(userfavnum===computernum){console.log("you won!");}
+// else {console.log("you lose"+computernum)}
+
+// let userfavnum=+prompt("Enter Your Fav Num");
+// let computernum=Math.round(Math.random()*10);
+// if (userfavnum===computernum){console.log("you won");}
+// else{console.log("you lose"+computernum);}
+
+let userfavnum=+prompt("even or odd");
+let computernum=Math.round(Math.random()*10);
+if (computernum%2===0){console.log("you won");}
+else {console.log("you lose"+computernum)}
