@@ -221,7 +221,157 @@
 // if (userfavnum===computernum){console.log("you won");}
 // else{console.log("you lose"+computernum);}
 
-let userfavnum=+prompt("even or odd");
-let computernum=Math.round(Math.random()*10);
-if (computernum%2===0){console.log("you won");}
-else {console.log("you lose"+computernum)}
+// let userfavnum=+prompt("even or odd");
+// let computernum=Math.round(Math.random()*10);
+// if (computernum%2===0){console.log("you won");}
+// else {console.log("you lose"+computernum)}
+
+// _________________________________rest____________________________________________________________________
+
+// _____________________________rabbi zidni ilma___________________________________________________________
+// ________________________________4/19/2023________________________________________________________________
+
+// let userfavnum=+prompt("enter your fav num");
+// console.log(userfavnum+5);
+
+// let userName = prompt("What is your Name?");
+// document.write("Welcome to my website " + userName);
+
+// let userName=prompt("what is your name?");
+// document.write("welcome to my website "+userName)
+
+// let userFavNum = prompt("What is your favourite number?");
+// console.log(userFavNum);
+
+
+// let num=5*3
+// console.log(num)
+
+// let userage=+prompt("Enter your age");
+// if (userage>=18){console.log("you can apply for CNIC");}
+// else{console.log("you can not apply for CNIC")}
+
+
+// let userfavnum=+prompt("Enter your fav num");
+// let computernum=Math.round(Math.random()*10);
+// if (userfavnum===computernum){console.log("you won");}
+//     else {
+//         console.log("you lose"+computernum)
+//     }
+
+
+// let userinput=prompt("even or odd");
+// let computerNum=Math.round(Math.random()*10);
+// if (computerNum%2===0 && userinput==="even"){("you won"+computerNum);}
+// else{console.log("you lose"+computerNum);}
+
+
+// let i=8
+// for(let i=1; i<=1000;i++){
+//     console.log (table+" x "+i+" = "+ i*i);
+// }
+
+// for (let i=1; i<=1;i++)
+// {console.log("well")}
+
+// for (let i=1; i<=10; i++){
+    // console.log("ewl")
+// }
+
+
+
+// for (i=1; i<=10; i++){
+// Document.write("efefe")}
+
+// for (i=1; i<=10; i++)
+// {
+//     document.write("hhh")
+// }
+
+// let table=18
+// for (let i=1; i<=19; i++){
+// console.log("18 x"+i+"="+table*i)
+// }
+
+// // Ask user for name
+// var name = prompt("Enter your name:");
+
+// // Capitalize first letter of name
+// var capitalized = name.charAt(0).toUpperCase() + name.slice(1);
+
+// // Display capitalized name
+// alert("Your name in capitalized case is: " + capitalized);
+
+// // Create empty arrays
+// let contactNumbers = [];
+// let contactNames = [];
+
+// // Ask the user to enter contacts and push them into the arrays
+// for (let i = 0; i < 3; i++) {
+//   let number = prompt("Enter contact number:");
+//   let name = prompt("Enter contact name:");
+//   contactNumbers.push(number);
+//   contactNames.push(name);
+// }
+
+// // Print the contact numbers and names to the console
+// console.log("Contact Numbers:");
+// for (let i = 0; i < contactNumbers.length; i++) {
+//   console.log(contactNumbers[i]);
+// }
+
+// console.log("Contact Names:");
+// for (let i = 0; i < contactNames.length; i++) {
+//   console.log(contactNames[i]);
+// }
+
+
+
+// var contactNumbers = [];
+// var contactNames = [];
+
+// for (var i = 0; i < 3; i++) {
+//   var number = prompt("Enter your contact number:");
+//   var name = prompt("Enter your contact name:");
+//   contactNumbers.push(number);
+//   contactNames.push(name);
+// }
+
+// for (var i = 0; i < contactNumbers.length; i++)
+// {
+//   console.log(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
+//   alert(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
+// }
+
+// var contactNumbers = [];
+// var contactNames = [];
+
+// for (var i = 0; i < 3; i++) {
+//   var number = prompt("Enter your contact number:");
+//   var name = prompt("Enter your contact name:");
+//   contactNumbers.push(number);
+//   contactNames.push(name);
+// }
+
+// for (var i = 0; i < contactNumbers.length; i++)
+// {
+//   console.log(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
+//   alert(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
+// }
+
+
+
+var contactNumbers = [];
+var contactNames = [];
+
+for (var i = 0; i < 3; i++) {
+  var number = prompt("Enter your contact number:");
+  var name = prompt("Enter your contact name:");
+  contactNumbers.push(number);
+  contactNames.push(name);
+}
+
+for (var i = 0; i < contactNumbers.length; i++) {
+  console.log(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
+  alert(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
+}
