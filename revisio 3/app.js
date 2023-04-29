@@ -41,3 +41,11 @@
 // console.log(months);
 // var months2 = months.slice(0, 4);
 
+var num=+prompt("enter a number")
+if(num%3===0 && num%5===0){
+    console.log("both 3 & 5")
+}else if(num%3===0){console.log("only 3")
+
+}else if (num%5===0) {console.log("only 5")
+    
+}
