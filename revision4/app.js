@@ -43,3 +43,23 @@
 //         console.log(array[i][j]);
 //     }
 // }
+
+
+// for (let i = 0; i <=99; i++) {
+//     console.log("for loop"+i);
+    
+// }
+// var table=+prompt("enter a number");
+// var table;
+// for (let i = 5; i <=10; i++) {
+//     // console.log("2" + "x" + i + "=" + 2*i);
+//     alert(table + "x" + i + "=" + table*i);
+    
+// }
+
+var cities=["Krachi","Lahore","Peshawer","Islamabad"];
+var city=prompt("Type City Name You Want")
+for (let index = 0; index < cities.length; index++) {
+    alert("Found " + city)
+    
+}
