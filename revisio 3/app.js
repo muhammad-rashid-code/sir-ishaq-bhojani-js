@@ -178,16 +178,16 @@
 // console.log(myArray)
 
 // Loop through the array and print each element
-let myArray=["apple","banana","orange",123,{key:"value"},"milk"];
+// let myArray=["apple","banana","orange",123,{key:"value"},"milk"];
 // for (let i = 0; i < myArray.length; i++) {
     // console.log(myArray[i]);
 //   }
 //   myArray[myArray.length-i]
 
-for (let i = 0; i < myArray.length; i++) {
-    console.log (myArray[i]);
+// for (let i = 0; i < myArray.length; i++) {
+//     console.log (myArray[i]);
     
-}
+// }
   
 // let newArray=myArray.slice(0,3);
 // console.log(newArray)

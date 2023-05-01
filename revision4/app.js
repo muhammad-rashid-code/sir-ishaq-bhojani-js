@@ -57,9 +57,9 @@
     
 // }
 
-var cities=["Krachi","Lahore","Peshawer","Islamabad"];
-var city=prompt("Type City Name You Want")
-for (let index = 0; index < cities.length; index++) {
-    alert("Found " + city)
+// var cities=["Krachi","Lahore","Peshawer","Islamabad"];
+// var city=prompt("Type City Name You Want")
+// for (let index = 0; index < cities.length; index++) {
+//     alert("Found " + city)
     
-}
+// }

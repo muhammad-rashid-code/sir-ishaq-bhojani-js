@@ -107,3 +107,14 @@
 // alert(5%2)   ans 1
 
 // _______________________y_____oTube 02
+
+// var num=5;
+// num=num+num1
+// var num1=10;
+// alert(num+num1);
+// confusion error NaN
+
+var num=5;
+var num1=3;
+num=num+num1;
+alert(num+num1);
